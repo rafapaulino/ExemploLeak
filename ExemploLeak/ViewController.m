@@ -31,4 +31,15 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)clique:(id)sender
+{
+    
+    for (int i =  0; i<5000; i++)
+    {
+        
+        NSArray *array = [[NSArray alloc] initWithObjects:@"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", @"hsdhjsfhdsfhjdfghd", nil];
+        
+        NSLog(@"%@",array.description);
+    }
+}
 @end
